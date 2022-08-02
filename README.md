@@ -5,6 +5,6 @@
 
 #### Scripts
 
-Start AuthServer: `npm run liveauth`
-Start Server: `npm run live`
-Start Client: `npm start`
+- Start AuthServer: `npm run liveauth`
+- Start Server: `npm run live`
+- Start Client: `npm start`
