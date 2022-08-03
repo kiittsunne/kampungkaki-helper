@@ -14,6 +14,7 @@ const JobsSchema = new mongoose.Schema(
     specialRequirements: { type: String, required: true },
     volunteer: { type: Array, required: true },
     duration: { type: Number, required: true },
+    email: { Type: String, required: true },
   },
   { collection: "Users" }
 );

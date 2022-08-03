@@ -23,7 +23,7 @@ router.get("/users", async (req, res) => {
 });
 
 // get user by id
-router.get("/users/:id", auth, async (req, res) => {
+router.get("/users/:id", async (req, res) => {
   try {
     const user = await User.findOne({ _id: req.params.id }).select(
       "_id username email"

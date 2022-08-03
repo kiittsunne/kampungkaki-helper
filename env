@@ -1,5 +1,0 @@
-PORT=5001
-AUTH_PORT=5002
-URI=`mongodb://localhost:27017/notes`
-ACCESS_TOKEN_SECRET= <require('crypto').randomBytes(64).toString('hex')>
-REFRESH_TOKEN_SECRET= <require('crypto').randomBytes(64).toString('hex')>
