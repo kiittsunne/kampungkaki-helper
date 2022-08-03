@@ -16,8 +16,8 @@ const JobsSchema = new mongoose.Schema(
     duration: { type: Number, required: true },
     email: { Type: String, required: true },
   },
-  { collection: "Users" }
+  { collection: "Jobs" }
 );
 
-const Users = mongoose.model("Users", JobsSchema);
-module.exports = Users;
+const Job = mongoose.model("Jobs", JobsSchema);
+module.exports = Job;

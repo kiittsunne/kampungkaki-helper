@@ -15,6 +15,9 @@ connectDB();
 const UserRouter = require("./router/UserRouter");
 app.use("/api", UserRouter);
 
+const JobRouter = require("./router/JobRouter");
+app.use("/admin", JobRouter);
+
 app.listen(PORT, () => {
   console.log(`App is tuned in to ${PORT}`);
 });
