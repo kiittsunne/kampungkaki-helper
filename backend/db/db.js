@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-let URI = process.env.URI;
+let URI = "mongodb://127.0.0.1:27017/ansar";
 
 const connectDB = async () => {
   try {
